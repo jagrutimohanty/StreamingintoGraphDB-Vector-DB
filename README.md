@@ -89,3 +89,6 @@ python -m src.producer.excel_to_kafka
 
 MATCH (p:Person)-[w:WORKS_AT]->(c:Company)
 RETURN p, w, c;
+
+### 8 Stop Kafka + Neo4j containers
+docker compose down
