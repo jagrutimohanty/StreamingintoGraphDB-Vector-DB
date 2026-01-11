@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# OS/IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Data artifacts
+data/*.csv
+data/*.parquet
+logs/
